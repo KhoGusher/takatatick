@@ -38,6 +38,7 @@ LandingPage.getInitialProps = async (context, client, currentUser) => {
   const { data } = await client.get('/api/tickets');
 
   console.log(data);
+  console.log('altering auth');
 
   return { tickets: data };
 };
