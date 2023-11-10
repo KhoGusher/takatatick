@@ -45,8 +45,6 @@ const start = async () => {
     console.log("Connected to Mongo Database");
     console.log("Connected to Mongo Database");
     console.log("Connected to Mongo Database");
-    console.log("Connected to Mongo Database");
-    console.log("Connected to Mongo Database");
   } catch (err) {
     console.error(err);
   }
