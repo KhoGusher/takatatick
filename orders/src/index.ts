@@ -43,8 +43,6 @@ const start = async () => {
     new PaymentCreatedListener(natsWrapper.client).listen();
     await mongoose.connect(process.env.MONGO_URI);
     console.log("Connected to Mongo Database");
-    console.log("Connected to Mongo Database");
-    console.log("Connected to Mongo Database");
   } catch (err) {
     console.error(err);
   }
