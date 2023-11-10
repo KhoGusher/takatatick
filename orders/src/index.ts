@@ -42,7 +42,7 @@ const start = async () => {
     new ExpirationCompleteListener(natsWrapper.client).listen();
     new PaymentCreatedListener(natsWrapper.client).listen();
     await mongoose.connect(process.env.MONGO_URI);
-    console.log("Connected to MongoDb");
+    console.log("Connected to Mongo Database");
   } catch (err) {
     console.error(err);
   }
